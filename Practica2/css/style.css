@@ -98,11 +98,12 @@ main h1 {
     height: 300px;
     width: 1370px;
     box-shadow: 10px 5px 5px black;
+    border-radius: 10px;
+
 }
 
 /* Styling the image in the imageApp1 section. */
 .imageApp1 img {
-    border-radius: 10px;
     height: 300px;
     width: 1370px;  
 }

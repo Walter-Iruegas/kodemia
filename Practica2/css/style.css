@@ -1,0 +1,164 @@
+/* A CSS reset. It is used to reset the default styling of the browser. */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: 0;
+    outline: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Setting the background color of the header. */
+header {
+    background: linear-gradient(#2596be, #0b2d39);
+    height: 150px;
+}
+
+/* Floating the logo to the left. */
+#logo {
+    float: left;
+}
+
+/* Setting the height, width, border-radius, margin, and box-shadow of the image. */
+#logo img {
+    height: 100px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 20px 20px 20px 20px;
+    box-shadow: 10px 5px 5px black;
+}
+
+/* Floating the browser to the right and positioning it relative to the top of the page. */
+#browser {
+    float: right;
+    position: relative;
+    top: 70px;
+}
+
+/* Styling the link in the imageApp1 section. */
+.imageApp1 a {
+    background: #000000;
+    color: #ffffff;
+    position: relative;
+    height: 40px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px 0 10px 10px;
+    right: -852px;
+    bottom: 32px;
+    font-weight: bold;
+}
+
+/* Making the list items in the nav bar display in a row and space them out evenly. */
+nav ul {
+    display: flex;
+    justify-content: space-around; 
+}
+
+/* Centering the text in the list items. */
+li {
+    text-align: center;
+}
+
+/* Styling the links in the nav bar. */
+li a {
+    color: #000000;
+    background-color: #eeeeee;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styling the links in the nav bar when the mouse hovers over them. */
+#browser li a:hover {
+    background-color: #333333;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+/* Setting the background color of the main section. */
+main {
+    background: linear-gradient(325deg,#39383b,#888889,#888889,#39383b);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styling the h1 tag in the main section. */
+main h1 {
+    text-align: center;
+    color: #ffffff;
+}
+ 
+/* Setting the height, width, and box-shadow of the image. */
+.imageApp1 {
+    height: 300px;
+    width: 1370px;
+    box-shadow: 10px 5px 5px black;
+}
+
+/* Styling the image in the imageApp1 section. */
+.imageApp1 img {
+    border-radius: 10px;
+    height: 300px;
+    width: 1370px;  
+}
+
+
+/* Making the list items in the imageApp2 section display in a row. */
+.imageApp2 ul {
+    display: flex;
+}
+
+/* Setting the height, width, and margin of the list items in the imageApp2 section. */
+.imageApp2 ul li {
+    height: 200px;
+    width: 350px;
+    margin: 50px 80px 50px 80px;
+}
+
+/* Styling the image in the imageApp2 section. */
+.imageApp2 ul li img {
+    border-radius: 10px;
+    height: 200px;
+    width: 350px;
+    top: 10px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 5px 5px black;
+} 
+
+/* Styling the link in the imageApp2 section. */
+.imageApp2 ul li article a {
+    background: #000000;
+    color: white;
+    border-radius: 0 10px 10px 10px;
+    position: relative;
+    bottom: 99px;
+    width: 40%;
+    font-weight: bold;
+}
+
+/* Styling the footer. */
+footer {
+    background: linear-gradient(#0b2d39, #2596be);
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+/* Making the list items in the parrApp section display in a row. */
+.parrApp ul {
+    display: flex;
+}
+
+/* Styling the list items in the parrApp section. */
+.parrApp ul li {
+    height: 200px;
+    width: 300px;
+    margin: 60px 60px 60px 60px;
+    color: #ffffff;
+    font-weight: bold;
+}
